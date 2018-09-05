@@ -43,8 +43,8 @@ layout: default
     {% endif %}
 
     {% if post.image.feature %}
-    <div class="post-image-feature">
-      <img src=
+    <div class="post-image-feature-listing">
+      <img class="feature-image" src=
       {% if post.image.feature contains 'http' %}
       "{{ post.image.feature }}"
       {% else %}

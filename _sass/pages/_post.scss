@@ -20,7 +20,7 @@
 }
 
 .image-credit {
-  float: right;
+  float: left;
   font-weight: bold;
   font-style: italic;
   color: $info;
@@ -145,6 +145,15 @@ a.read-more {
   }
   .table-cell {
     vertical-align: middle;
+  }
+}
+.post-image-feature-listing {
+  margin-bottom: 40px;
+  margin-left: 0; 
+  .feature-image {
+    margin: 0; 
+    height: 400px; 
+    width: auto;  
   }
 }
 .post-image-feature {
