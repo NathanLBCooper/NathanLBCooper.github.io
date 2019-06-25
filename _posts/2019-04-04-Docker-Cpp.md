@@ -3,7 +3,7 @@ layout: post
 title: "Using Docker containers to create a reproducible C++ build environment"
 date: 2019-04-04 12:00:00
 excerpt: ""
-categories: [c++, docker]
+categories: [c++, docker, my-github-projects]
 comments: false
 image:
   feature: dockercpp.png
