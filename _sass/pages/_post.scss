@@ -152,14 +152,14 @@ a.read-more {
   margin-left: 0; 
   .feature-image {
     margin: 0; 
-    height: 400px; 
+    max-height: 400px; 
     width: auto;  
   }
 }
 .post-image-feature {
   margin-bottom: 40px;
   .feature-image {
-    width: 100%;
+    max-width: 100%;
     max-height: 500px;
   }
 }
