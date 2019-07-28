@@ -2,8 +2,11 @@
 layout: post
 title: "Your software should build, test and push artifacts on YOUR machine"
 date: 2019-07-28 12:00:00
+excerpt: "Let's start writing code that runs on our machines as well"
 categories: [continuous-integration]
 comments: false
+image:
+  feature: "worksonmyciserver.png"
 ---
 
 **It works on my machine.**
@@ -13,8 +16,6 @@ So the saying goes. We wrote something that worked locally, but for whatever rea
 But why did the developer start with the machine? ... Because it's the quickest and easiest way to develop code. It's the shortest feedback loop by a long way. Obviously, this is how we all work.
 
 But, **why do we forgot this when we write our CI code?**
-
-<br/><br/><img src="{{ '/img/worksonmyciserver.png' | prepend: site.baseurl }}" style="max-height: 20em;"><br/><br/>
 
 I've seen too much of the code we use to build and deploy our applications buried in appveyor *.yaml* files, or worse, completely absent from source control and written in some Teamcity textbox. I'm not a fan of this. If I want to change how an application builds I don't want to have to go hunting on a CI server. 'Teamcity-debugging' isn't productive or fun, I just want something I just run and develop in quickest and easiest place: *on my machine*.
 
