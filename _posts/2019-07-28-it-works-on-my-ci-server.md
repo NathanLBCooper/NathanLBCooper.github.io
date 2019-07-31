@@ -2,7 +2,7 @@
 layout: post
 title: "Your software should build, test and push artifacts on YOUR machine"
 date: 2019-07-28 12:00:00
-excerpt: "Let's start writing code that runs on our machines as well"
+excerpt: "How to avoid getting tricked by tutorials and get your Continuous Integration code right the first time"
 categories: [continuous-integration]
 comments: false
 image:
@@ -11,32 +11,15 @@ image:
 
 **It works on my machine.**
 
-So the saying goes. We wrote something that worked locally, but for whatever reason it doesn't work in the wild. Maybe it's a configuration problem, a missing dependency or maybe even   performance related. Either way, it doesn't work. The developer should have checked and they should have automated those checks.
+So the saying goes. It's a common problem developers have when they fail to anticipate how code might run differently outside their local environment.
 
-But why did the developer start with the machine? ... Because it's the quickest and easiest way to develop code. It's the shortest feedback loop by a long way. Obviously, this is how we all work.
+Strangely enough, I occasionally see the exact opposite problem when it comes to Continuous Integration (CI). I've seen deployment scripts buried in CI configuration, and even the odd stackoverflow question on how to run a CI tool locally so the questioner can debug their deployment code. It's a situation that is typically too painful to last very long, but even so, in the interests of software developer public safety I'd like to issue a warning:
 
-But, **why do we forgot this when we write our CI code?**
+**Don't be tricked by tutorials.**
 
-I've seen too much of the code we use to build and deploy our applications buried in appveyor *.yaml* files, or worse, completely absent from source control and written in some Teamcity textbox. I'm not a fan of this. If I want to change how an application builds I don't want to have to go hunting on a CI server. 'Teamcity-debugging' isn't productive or fun, I just want something I just run and develop in quickest and easiest place: *on my machine*.
+A developers is someone who reads a lot of tutorials. We've all got a lot of stuff to do and there are a lot of tools we've got to use to do it. But I think sometimes we forgot that tutorials are just tutorials, not a best practice example. This is as true with CI as anything else. The right way to quickly demonstrate concepts to a newcomers is rarely identical to the right way to do it for a real application. Ie, just because the AppVeyor example code inlines all the build code into their yaml file in order to get you started, doesn't mean you should commit that sort of thing to a real project.
 
-Here are some things I do before even thinking about CI: I write a build/test script, I decide where my artifacts go, and I write a deploy script. If I'm writing something that makes a nuget package, I can send version 0.0.1 before I even touch a CI server. Working locally is just the quickest way to resolve any problems.
+The best place to develop code is your local machine. It's the quickest, easiest place, with the tightest feedback loop. That's after all why the phrase "It works on my machine" exists, because that's where we all start.
 
-Here's an example of an Appveyor file I wrote recently:
+So if you haven't already, extract your build, testing and deployment scripts from your CI framework. And be careful to treat tutorials only as what they actual are, a learning tool.
 
-	...
-	build_script:
-		- ps: .\build.ps1 -build_number $env:APPVEYOR_BUILD_NUMBER -branch $env:APPVEYOR_REPO_BRANCH
-	artifacts:
-		- path: .\build\nupkgs\*
-	deploy_script:
-		- ps: .\deploy.ps1 -nuget_source $env:nuget_source -nuget_api_key $env:nuget_api_key
-	skip_commits:
-  	files:
-    	- '**/*.md'
-    ...
-
-I let the CI do all the things it's good at doing automatically, like picking when to run and when not to. **But the things I have to write and maintain, my `build_script` and my `deploy_script` are trivial to get working locally**. I've made them parameterized powershell scripts on the highest possible level, and I won't need to do a whole lot of typing to get things working on my machine.
-
-Fixing and maintaining them in future will be much easier. I'm also much less locked into appveyor.
-
-Let's start doing this with the CI code we write from now on.
