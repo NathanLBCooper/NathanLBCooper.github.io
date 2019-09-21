@@ -6,9 +6,7 @@ excerpt: "'Don't bring me problems, bring me solutions'... On the surface this s
 categories: [opinion]
 comments: false
 image:
-  feature: https://images.unsplash.com/photo-1546800237-ddc1372bc253?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
-  credit: Amanda Jones
-  creditlink: https://unsplash.com/photos/e3jKBZoRnTs
+  feature: opinion.png
 ---
 
 

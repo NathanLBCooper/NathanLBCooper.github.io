@@ -5,6 +5,8 @@ date: 2016-07-08 12:00:00
 excerpt: "I want to improve my website's experience for users with JavaScript, whilst keeping solid non-JavaScript functionality. Remember when you couldn't count on Javascript being there? No, me neither. But not every device is a laptop or modern mobile phone, so let's check this out"
 categories: [javascript, front-end, how-to]
 comments: false
+image:
+  feature: frontend.png
 ---
 
 I want to improve my website's experience for users with JavaScript, whilst keeping solid non-JavaScript functionality.

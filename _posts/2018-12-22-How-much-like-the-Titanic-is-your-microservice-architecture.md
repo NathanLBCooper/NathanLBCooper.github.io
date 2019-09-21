@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "How much like the Titanic is your microservice architecture?"
+title: "Keeping availability high in distributed systems"
 date: 2018-12-22 12:00:00
-excerpt: "How your shiney new microservice architecture might actually be destroying your availability"
-categories: [distributed system design]
+excerpt: "How much like the Titanic is your microservice architecture? How tightly bound is the success of your entire systems to the stablity of it's individual components? Is there a risk that your new microservices might be destroying your availability?"
+categories: [architecture]
 comments: false
 image:
     feature: titanicsinks.jpg
@@ -38,7 +38,6 @@ Availability is multiplicative. If you need everything to work, you need to mult
 When we design our services we must ask ourselves "what can we do if the other services aren't there". If the only answer we can see to that question is "fail", then the design is wrong. Let's get this right, and then someday your system will be as robust to partial failure as the Titanic was.
 
 We'll talk about lifeboats later.
-
 
 ------------
 

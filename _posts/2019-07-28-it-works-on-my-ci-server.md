@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Your software should build, test and push artifacts on YOUR machine"
+title: "You shouldn't *need* your CI server to build and deploy your code"
 date: 2019-07-28 12:00:00
-excerpt: "How to avoid getting tricked by tutorials and get your Continuous Integration code right the first time"
+excerpt: "Don't get tricked by tutorial. You should be able to build and deploy from your machine"
 categories: [continuous-integration]
 comments: false
 image:
-  feature: "worksonmyciserver.png"
+  feature: ci.png
 ---
 
 **It works on my machine.**

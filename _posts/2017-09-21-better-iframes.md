@@ -2,8 +2,11 @@
 layout: post
 title: "If you're making iframe content for another website, here's how to do it better"
 date: 2017-09-21 12:00:00
+excerpt: "How to make your iframes responsive and easy to embed"
 categories: [front-end, how-to]
 comments: false
+image:
+  feature: frontend.png
 ---
 
 Iframes are not usually the posterboy of a quality web experience. But they are useful, and part of my dayjob used to be making a site that could be iframed into other organisation's websites.
