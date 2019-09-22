@@ -2,7 +2,7 @@
 layout: post
 title: "You shouldn't *need* your CI server to build and deploy your code"
 date: 2019-07-28 12:00:00
-excerpt: "Don't get tricked by tutorial. You should be able to build and deploy from your machine"
+excerpt: "Don't get tricked by tutorials. You should be able to build and deploy from your machine"
 categories: [continuous-integration]
 comments: false
 image:
