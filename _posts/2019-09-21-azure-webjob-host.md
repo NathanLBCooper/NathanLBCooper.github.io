@@ -2,14 +2,14 @@
 layout: post
 title: "Azure WebJob Host"
 date: 2019-09-21 12:00:00
-excerpt: "I've created a library that provides shutdown detection for Azure WebJobs. It's both for continuous services and finite duration method calls. The Azure WebJob SDK can do that already, but this was created to be a 'lighter' dependancy and to be less opinionated on how WebJobs are written."
+excerpt: "I've created a library that provides shutdown detection for Azure WebJobs. It's both for continuous services and finite duration method calls. The Azure WebJob SDK can do that already, but this was created to be a 'lighter' dependency and to be less opinionated on how WebJobs are written."
 categories: [azure, my-projects]
 comments: false
 image:
   feature: project.png
 ---
 
-I've created a <a href="https://github.com/NathanLBCooper/azure-webjob-host" target="_blank">libary that provides shutdown detection for Azure WebJobs</a>. It's both for continuous services and finite duration method calls. The Azure WebJob SDK can do that already, but this was created to be a 'lighter' dependancy and to be less opinionated on how WebJobs are written.
+I've created a <a href="https://github.com/NathanLBCooper/azure-webjob-host" target="_blank">libary that provides shutdown detection for Azure WebJobs</a>. It's both for continuous services and finite duration method calls. The Azure WebJob SDK can do that already, but this was created to be a 'lighter' dependency and to be less opinionated on how WebJobs are written.
 
 ### The project
 
