@@ -3,7 +3,7 @@ layout: post
 title: "Keeping availability high in distributed systems"
 date: 2018-12-22 12:00:00
 excerpt: "How much like the Titanic is your microservice architecture? How tightly bound is the success of your entire systems to the stablity of it's individual components? Is there a risk that your new microservices might be destroying your availability?"
-categories: [architecture]
+categories: [programming]
 comments: false
 image:
     feature: titanicsinks.jpg

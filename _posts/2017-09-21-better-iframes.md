@@ -3,7 +3,7 @@ layout: post
 title: "If you're making iframe content for another website, here's how to do it better"
 date: 2017-09-21 12:00:00
 excerpt: "How to make your iframes responsive and easy to embed"
-categories: [front-end]
+categories: [front-end, programming]
 comments: false
 image:
   feature: frontend.png

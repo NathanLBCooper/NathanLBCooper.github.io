@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "How I learnt to create reproducible C++ build environments with Docker"
+title: "PROJECT -- How I learnt to create reproducible C++ build environments with Docker"
 date: 2019-04-04 12:00:00
 excerpt: "I quick overview of a really interesting series of Microsoft blog posts, and the application I built following them"
-categories: [c++, docker, my-projects]
+categories: [my-projects, programming, C++, docker]
 comments: false
 image:
   feature: dockercpp.png

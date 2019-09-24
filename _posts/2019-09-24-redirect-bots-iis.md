@@ -3,7 +3,7 @@ layout: post
 title: "Redirect Crawlers away from your IIS hosted webpage"
 date: 2019-09-24 12:01:00
 excerpt: "Then a link to a website is posted somewhere like Facebook, Twitter or Slack, a crawler will follow that link. That's how Facebook, for example, grab titles, descriptions and images from their links. If you want them to stop following your links, or show them alternative content, here's how."
-categories: [iis, how-to]
+categories: [how-to, programming, iis]
 comments: false
 image:
   feature: code.png

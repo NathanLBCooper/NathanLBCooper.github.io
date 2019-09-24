@@ -3,7 +3,7 @@ layout: post
 title: "Engineering Chaos"
 date: 2015-09-29 12:00:00
 excerpt: "This is a indispensable piece of advice: “The best way to avoid failure is to fail constantly”"
-categories: [architecture]
+categories: [opinion, programming]
 comments: false
 image:
   feature: chaosmonkey.jpg

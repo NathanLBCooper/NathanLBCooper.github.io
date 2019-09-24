@@ -3,7 +3,7 @@ layout: post
 title: "Deleting Entity Framework Orphans and Domain Events in Entity Framework 6"
 date: 2016-07-08 12:00:00
 excerpt: "One of the 'missing features' of Entity Framework 6 is properly dealing with the removal of entities from collections. Let's add orphaned entity removal to our EF project."
-categories: [entity-framework-6, how-to]
+categories: [how-to, programming, entity-framework-6]
 comments: false
 image:
   feature: code.png
