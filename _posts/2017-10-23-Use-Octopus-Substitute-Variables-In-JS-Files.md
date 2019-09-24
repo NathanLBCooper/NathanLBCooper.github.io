@@ -3,7 +3,7 @@ layout: post
 title: "How to use Octopus substitute variables In JavaScript files"
 date: 2017-10-23 12:00:00
 excerpt: "How to use the Octopus variable replace feature in directly in your javascript code"
-categories: [octopus, how-to]
+categories: [octopus, deployment, how-to]
 comments: false
 image:
   feature: octopus.png

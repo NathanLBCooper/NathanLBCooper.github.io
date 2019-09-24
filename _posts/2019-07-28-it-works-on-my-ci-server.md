@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "You shouldn't *need* your CI server to build and deploy your code"
+title: "You shouldn't *need* your CI server to deploy your code"
 date: 2019-07-28 12:00:00
-excerpt: "Don't get tricked by tutorials. You should be able to build and deploy from your machine"
-categories: [continuous-integration]
+excerpt: "Don't get tricked by tutorials. You should be able to deploy code from your machine"
+categories: [continuous-integration, deployment]
 comments: false
 image:
-  feature: ci.png
+  feature: deployment.jpg
 ---
 
 **It works on my machine.**
 
 So the saying goes. It's a common problem developers have when they fail to anticipate how code might run differently outside their local environment.
 
-Strangely enough, I occasionally see the exact opposite problem when it comes to Continuous Integration (CI). I've seen deployment scripts buried in CI configuration, and even the odd stackoverflow question on how to run a CI tool locally so the questioner can debug their deployment code. It's a situation that is typically too painful to last very long, but even so, in the interests of software developer public safety I'd like to issue a warning:
+Strangely enough, I occasionally see the exact opposite problem when it comes to Deployment. I've seen deployment scripts buried in CI configuration, and even the odd stackoverflow question on how to run a CI tool locally so the questioner can debug their deployment code. It's a situation that is typically too painful to last very long, but even so, in the interests of software developer public safety I'd like to issue a warning:
 
 **Don't be tricked by tutorials.**
 
