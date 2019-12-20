@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "If you're making iframe content for another website, here's how to do it better"
+title: "Create responsive iframe content"
 date: 2017-09-21 12:00:00
-excerpt: "How to make your iframes responsive and easy to embed"
+excerpt: "If your site is going to embedded in another one using an iframe, here's how to make that responsive and easy"
 categories: [front-end, programming]
 comments: false
 image:
