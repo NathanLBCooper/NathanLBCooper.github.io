@@ -4,26 +4,23 @@
 // General
 .btn {
   display: inline-block;
-  margin-bottom: 20px;
   padding: 8px 20px;
   font-size: 0.875em;
   font-family: $font-family-base;
   font-weight: 700;
-  background-color: $primary;
-  color: $white;
+  color: $primary;
   border-width: 2px !important;
   border-style: solid !important;
-  border-color: $primary;
+  border-color: #513eb6;
   text-decoration: none !important;
-  border-radius: 5px;
   &:visited {
-    color: $white;
-    border-color: $primary;
+    color: #513eb6;
+    border-color: #513eb6;
   }
   &:hover {
-    background-color: $white;
-    color: $primary;
-    border-color: $primary;
+    background-color: #513eb6;
+    color: $white;
+    border-color: #513eb6;
   }
 }
 

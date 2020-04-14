@@ -46,7 +46,10 @@ section.post {
 
 // Post title
 .post-title {
-
+  color: black;
+  padding: 5px;
+  border-style: solid;
+  border-color: #8d7edc;
 }
 
 .post-title-link {
@@ -64,18 +67,33 @@ section.post {
   font-size: 13px;
   font-weight: bold;
 	.post-date {
-		color: $secondary;
+    background-color: $secondary;
+    color: $white;
+    padding: 5px;
 	}
 	.post-author {
-		text-transform: uppercase;
-		color: $warning;
+    text-transform: uppercase;
+    background-color: $secondary;
+    color: $white;
+    padding: 5px;
 	}
   .post-cat {
-		text-transform: uppercase;
-		color: $warning;
+    text-transform: uppercase;
+    background-color: $white;
+    color: $secondary;
+    border-color: $secondary;
+    border-style: solid;
+    padding: 5px;
+    &:hover {
+      background-color: $secondary;
+      color: $white;
+      
+    }
 	}
   .read-time {
-    color: $primary;
+    background-color: $secondary;
+    color: $white;
+    padding: 5px;
   }
 }
 
@@ -88,14 +106,14 @@ a.read-more {
 // Post content
 
 #post {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   .post-header {
-    margin: 0 auto 50px;
+    margin: 0 auto 30px;
   }
 }
 
 #post h1 {
-  margin: 0.5em 0 1em;
+  margin: 0.5em 0 0.5em;
 }
 #post h2 {
   margin: 2em 0 0.8em;
@@ -186,72 +204,72 @@ a.read-more {
   }
 }
 .twitter {
-  background-color: #77bcf1;
-  color: $white;
+  background-color: $white;
+  color: #77bcf1;
   border-color: #77bcf1;
   &:visited {
-    color: $white;
+    color: #77bcf1;
     border-color: #77bcf1;
   }
   &:hover {
-    background-color: $white;
-    color: #77bcf1;
+    background-color:  #77bcf1;
+    color: $white;
     border-color: #77bcf1;
   }
 }
 .facebook {
-  background-color: #627aac;
-  color: $white;
+  background-color: $white;
+  color: #627aac;;
   border-color: #627aac;
   &:visited {
-    color: $white;
+    color: #627aac;
     border-color: #627aac;
   }
   &:hover {
-    background-color: $white;
-    color: #627aac;
+    background-color: #627aac;
+    color: $white;
     border-color: #627aac;
   }
 }
 .google-plus {
-  background-color: #e36f60;
-  color: $white;
+  background-color: $white;
+  color: #e36f60;
   border-color: #e36f60;
   &:visited {
-    color: $white;
+    color: #e36f60;
     border-color: #e36f60;
   }
   &:hover {
-    background-color: $white;
-    color: #e36f60;
+    background-color: #e36f60;
+    color: $white;
     border-color: #e36f60;
   }
 }
 .hacker-news {
-  background-color: #f60;
-  color: $white;
+  background-color: $white;
+  color: #f60;
   border-color: #f60;
   &:visited {
-    color: $white;
+    color: #f60;
     border-color: #f60;
   }
   &:hover {
-    background-color: $white;
-    color: #f60;
+    background-color: #f60;
+    color: $white;
     border-color: #f60;
   }
 }
 .reddit {
-  background-color: #5f99cf;
-  color: $white;
+  background-color: $white;
+  color: #5f99cf;
   border-color: #5f99cf;
   &:visited {
-    color: $white;
+    color: #5f99cf;
     border-color: #5f99cf;
   }
   &:hover {
-    background-color: $white;
-    color: #5f99cf;
+    background-color: #5f99cf;
+    color: $white;
     border-color: #5f99cf;
   }
 }
