@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Serving 3rd Party Images as Secure Content"
+title: "How to serve 3rd Party Images as Secure Content"
 date: 2017-02-24 12:00:00
 excerpt: "I've built a site that's served over https, calling ASP.NET WebApi also over https, but contains images that are on plain old http. I trust these image locations, and just want to proxy them. This is kind of a wierd thing to want to do, but if this ever happens to you, here's how to do it."
 categories: [how-to, programming, asp.net]

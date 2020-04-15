@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Project review: Alias Model Binder and Delimiting Query String Value Provider"
+title: "Code I wrote: Alias Model Binder and Delimiting Query String Value Provider"
 date: 2019-06-25 12:00:00
 excerpt: "I've created two utilities for asp.net core: 1) a model binder for allowing alternative property names on request models. 2) a value provider allowing alternative collection query variable syntax"
 categories: [my-projects, programming, asp.net-core]

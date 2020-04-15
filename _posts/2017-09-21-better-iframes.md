@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Create responsive iframe content"
+title: "How to create responsive iframe content"
 date: 2017-09-21 12:00:00
 excerpt: "If your site is going to embedded in another one using an iframe, here's how to make that responsive and easy"
 categories: [front-end, programming]

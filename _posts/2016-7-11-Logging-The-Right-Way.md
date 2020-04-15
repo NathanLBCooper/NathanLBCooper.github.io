@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building your own event logging"
+title: "How to build your own event logging"
 date: 2016-07-11 12:00:00
 excerpt: "Let's make our logging structured"
 categories: [programming]
@@ -9,7 +9,7 @@ image:
   feature: code.png
 ---
 
-> NOTE: I think these days it's better to just take something like ELK and Prometheus and just do it how they say. But here is how I used to do event logging:
+> NOTE: I think these days it's better to just take something like Serilog/ELK/Prometheus and just do it how they say. But here is how I used to do event logging:
 
 Let's say we're writing a system that sends messages, then it logs: `Log($"Message sent to {0}", value.SentTo, LogLevel.DEBUG)`. So when Debug level events are being logged, we get a nice string explaining what happened. But what's wrong with this?
 

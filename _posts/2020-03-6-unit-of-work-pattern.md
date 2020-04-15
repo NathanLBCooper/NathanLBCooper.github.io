@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unit of Work pattern"
+title: "How to implement a Unit of Work pattern"
 date: 2020-03-06 12:01:00
 excerpt: "A Unit of Work pattern for repositories using ambient context"
 categories: [programming, storage]

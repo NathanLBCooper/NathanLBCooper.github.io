@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Validating Min and Max in your Angular form"
+title: "How to validate min and max in your Angular form"
 excerpt: "So the `min` and `max` constraints on number field in your template based form aren't working? Here's the code to fix that"
 date: 2017-09-26 12:00:00
 categories: [how-to, front-end, programming, angular]
