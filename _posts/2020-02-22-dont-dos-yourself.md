@@ -5,8 +5,6 @@ date: 2020-02-22 12:01:00
 excerpt: "Make sure to back off requests when your upstream infrastructure is struggling"
 categories: [programming]
 comments: false
-image:
-  feature: code.png
 ---
 
 

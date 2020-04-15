@@ -5,8 +5,6 @@ excerpt: "So the `min` and `max` constraints on number field in your template ba
 date: 2017-09-26 12:00:00
 categories: [how-to, front-end, programming, angular]
 comments: false
-image:
-  feature: angular.png
 ---
 
 So the `min` and `max` constraints on number field in your template based form aren't working? Users can type in out of range values and the form is still valid. What's happening?

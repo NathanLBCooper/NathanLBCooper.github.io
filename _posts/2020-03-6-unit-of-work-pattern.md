@@ -5,8 +5,6 @@ date: 2020-03-06 12:01:00
 excerpt: "A Unit of Work pattern for repositories using ambient context"
 categories: [programming, storage]
 comments: false
-image:
-  feature: code.png
 ---
 
 When using a repository pattern, it's a common to run into the following situation: Running one of your 'business transactions' (a login request, a customer order etc) requires multiple entities to be updated. Multiple methods on multiple different repositories must be called. A partial update, when some calls fail and some succeed is not okay. They all need to succeed or fail together.

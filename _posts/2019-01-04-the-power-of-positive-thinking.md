@@ -5,8 +5,6 @@ date: 2019-01-04 12:00:00
 excerpt: "'Don't bring me problems, bring me solutions'... On the surface this sounds great, empowering even, but, as we'll see, this isn't a great idea."
 categories: [opinion]
 comments: false
-image:
-  feature: opinion.png
 ---
 
 

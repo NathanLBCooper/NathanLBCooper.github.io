@@ -5,8 +5,6 @@ date: 2019-09-21 12:01:00
 excerpt: "Having a culture of continuous improvement means you are constantly experimenting with your processes. A regular retrospective meeting is an important part of that. It's an opportunity for the team to inspect themselves and create a plan for improvements. In these meetings the team decide on 'Action points': things that individuals or the team as a whole need to do. But we took it a step further and started conducting defined and formalised experiments. Let's see how our experiment-experiment went."
 categories: [process]
 comments: false
-image:
-  feature: process.jpg
 ---
 
 

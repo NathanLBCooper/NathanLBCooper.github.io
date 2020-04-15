@@ -5,8 +5,6 @@ date: 2019-07-28 12:00:00
 excerpt: "Don't get tricked by tutorials. You should be able to deploy code from your machine"
 categories: [deployment, opinion]
 comments: false
-image:
-  feature: deployment.jpg
 ---
 
 **It works on my machine.**

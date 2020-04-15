@@ -5,8 +5,6 @@ date: 2019-04-04 12:00:00
 excerpt: "I quick overview of a really interesting series of Microsoft blog posts, and the application I built following them"
 categories: [my-projects, programming, C++, docker]
 comments: false
-image:
-  feature: dockercpp.png
 ---
 
 I've started reading the [Visual Studio C++ Team blog](https://devblogs.microsoft.com/cppblog/).
@@ -23,6 +21,8 @@ It's been an education for me. One of the worst things about C++, as far as I'm 
 
 Let's explain some of the concepts I encountered while reading these articles and while building my own docker c++ project.
 
+<img src="{{ '/img/dockercpp.png' | prepend: site.baseurl }}" alt="Docker CPP" style="width: 60%; height: auto;">
+
 **What do I mean by multi-stage build?** If you're using a compiled language, you generally need more tools to build it than you need to run it. So when you deploy your application, you don't want to deploy a container bloated with a bunch of now-useless build tools as well. You want to have a build container that produces another smaller run container. Plus, maybe you also want to debug? Sometimes that takes even more tools that running it. So you also might want a even bigger container for that.
 
 **What's this Vckpg thing it's using?** This is sort of like using a 'normal' package manager (npm, pip etc), but different in a lot of interesting ways.
@@ -38,3 +38,5 @@ It's a bit rough though. After all that effort I got bored writing the actual C+
 This whole exercise did make me think about how I'd integrate C++ into one of my projects. I definitely would try and stick it into one of these builds. I would add a C++ package manager if there wasn't one. I'd also put it between two rabbitmq queues if the C++ was  build for some kind of heavy asynchronous number crunching, like I imagined in my example. Or maybe I'd just hunt down these hyperthetical C++ developers and explain the magic of .NET Core to them. Who knows.
 
 But, despite my lack of enthusiasm for actually writing C++, I'll keep following these blogs. They're interesting. They inspire me to dig into things I otherwise won't. Check them out. Maybe you'll enjoy them as well.
+
+*Image credit: [Docker](https://www.docker.com/) (modified)*

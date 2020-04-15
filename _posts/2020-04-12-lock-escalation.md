@@ -5,8 +5,6 @@ date: 2020-04-12 12:01:00
 excerpt: "And why do I keep seeing 'DELETE TOP 4000 FROM'? A quick summary of lock escalation in SQL Server"
 categories: [storage]
 comments: false
-image:
-  feature: storage.png
 ---
 
 A transaction will lock the resources (rows, pages, tables etc) on which it is dependent. It does this to prevent other transactions from simultaneously modifying them and causing problems for the original transaction. Ideally a transaction will lock only what's needed, but that's not always the case.

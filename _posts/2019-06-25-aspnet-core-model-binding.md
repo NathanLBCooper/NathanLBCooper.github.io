@@ -5,8 +5,6 @@ date: 2019-06-25 12:00:00
 excerpt: "I've created two utilities for asp.net core: 1) a model binder for allowing alternative property names on request models. 2) a value provider allowing alternative collection query variable syntax"
 categories: [my-projects, programming, asp.net-core]
 comments: false
-image:
-  feature: project.png
 ---
 
 I've written a <a href="https://github.com/NathanLBCooper/aspnet-core-model-binding" target="_blank">model binder and a value provider</a> for asp.net core.

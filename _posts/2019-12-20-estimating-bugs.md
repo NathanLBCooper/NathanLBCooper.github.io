@@ -5,8 +5,6 @@ date: 2019-12-20 12:01:00
 excerpt: "If you've ever used Pivotal Tracker you'll have noticed bug estimation is off by default. Why is that? And is it the right thing to do: should bugs be estimated or not?"
 categories: [process]
 comments: false
-image:
-  feature: process.jpg
 ---
 
 **Should we estimate bugs?**

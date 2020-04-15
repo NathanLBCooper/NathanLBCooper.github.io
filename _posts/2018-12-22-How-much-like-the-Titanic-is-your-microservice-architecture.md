@@ -5,14 +5,14 @@ date: 2018-12-22 12:00:00
 excerpt: "How much like the Titanic is your microservice architecture? How tightly bound is the success of your entire systems to the stablity of it's individual components? Is there a risk that your new microservices might be destroying your availability?"
 categories: [programming]
 comments: false
-image:
-    feature: titanicsinks.jpg
 ---
 
 
 On April 10, 1912, the R.M.S. Titanic set sail from Southampton, England, to New York. The Titanic was one of the biggest and advanced state of the art ocean liners of its day. Equipped with a host of new safety technologies, it was said to be "unsinkable". But four days into the ship's maiden voyage, she sank after colliding with an iceberg, tragically taking the lives of around 1500 passengers and crew.
 
 The Titanic had 16 watertight compartments. The ship could stay afloat with up to four of these compartments flooded. The blow to her starboard side opened five compartments to the sea, and she sank two hours and forty minutes later.
+
+<img src="{{ '/img/titanic.jpg' | prepend: site.baseurl }}" alt="Titanic Sinks" style="width: 60%; height: auto;">
 
 Here's the twist. How many water tight compartments does your software system have? How many of your shiny new micro-services could non-iceberg-related server incidents take out before your entire system fails? Sure. Early 20th century ship-makers had serious problems with their disaster recovery/mitigation planning. But as far as building our ships, or our applications, might they have been better masters of their craft than we are of ours?
 
@@ -44,3 +44,5 @@ We'll talk about lifeboats later.
 PS
 
 I recently was lucky enough to attend a seminar by Uwe Friedrichsen, which explored a lot of the issues around designing distributed systems. He touched upon isolation and designing for failure, which is what inspired this article. I'm definitely going to be checking out more of his stuff. And if you're interested in this subject at all, I'd recommend watching his video on [The 7 Quests of Resilient Software Design](https://www.youtube.com/watch?v=qWo57fWvycU)
+
+*Image Credit: Untergang der Titanic" by Willy Stöwer, 1912*

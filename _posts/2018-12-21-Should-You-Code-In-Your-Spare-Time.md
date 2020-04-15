@@ -5,8 +5,6 @@ date: 2018-12-21 12:00:00
 excerpt: "Is the only way to become a 'great programmer' to spend a lot of your spare time coding? Is that even the best way?"
 categories: [opinion]
 comments: false
-image:
-  feature: opinion.png
 ---
 
 This is a question I hear pretty often. Apparently the only way to become a "great programmer" is to spend a lot of your spare time coding. This isn't free of course, your spare time is valuable. Maybe there are other pursuits in life you want to be great at. But is coding after a long day's work just something we all have to do?

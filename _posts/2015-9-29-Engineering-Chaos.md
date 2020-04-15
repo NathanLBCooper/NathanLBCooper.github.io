@@ -5,10 +5,6 @@ date: 2015-09-29 12:00:00
 excerpt: "This is a indispensable piece of advice: “The best way to avoid failure is to fail constantly”"
 categories: [opinion, programming]
 comments: false
-image:
-  feature: chaosmonkey.jpg
-  credit: Netflix
-  creditlink: https://medium.com/netflix-techblog
 ---
 
 The [Netflix Tech Blog](https://medium.com/netflix-techblog/5-lessons-weve-learned-using-aws-1f2a28588e4c) has a number of recommendations for anyone moving to the cloud.
@@ -20,7 +16,7 @@ Possibly the most indispensable piece of advice the blog gives is this:  **“Th
 >
 > One of the first systems our engineers built in AWS is called the Chaos Monkey. The Chaos Monkey’s job is to randomly kill instances and services within our architecture. If we aren’t constantly testing our ability to succeed despite failure, then it isn’t likely to work when it matters most – in the event of an unexpected outage.
 
-
+<img src="{{ '/img/chaos-monkey.jpeg' | prepend: site.baseurl }}" alt="Chaos monkey" style="width: 60%; height: auto;">
 
 This advice might sound crazy. Why would you actively attack your own deployed services? Because... regardless of what you do... individual components of your solution will fail. Even the most robust equipment eventually fails and if a system cannot both recover from small failures and gracefully degrade from larger ones, then that system is only as strong as its weakest link.
 
@@ -34,3 +30,5 @@ The company began constantly testing their resilience on their real production s
 The ‘tyres burst’ when AWS suffered significant networking issues across the Americas on Christmas Eve 2012. Incredibly, the Netflix web site remained up, at a time when many popular websites crashed. While some streaming services for users in the Americas were degraded, nothing broke. Their commitment to recovery from failure had paid off.
 
 We can all learn from Netflix. A lot of the lessons are cultural. Netflix had hired smart people and trusted them to make decisions and take smart risks. They had a technical culture where people thought carefully about resiliency and had the space to spend time working on it. That's a hard thing to build and a very valuable asset for a company. But there are easier technical things we can start doing as well. Let's start talking seriously about resiliency. Let's start testing our code for it. And we adjust our approach to coding to not just think "how will this work", but also "how will this fail". 
+
+*Image credit [Netfix Tech Blog](https://medium.com/netflix-techblog)*

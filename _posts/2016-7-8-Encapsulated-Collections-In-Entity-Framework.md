@@ -5,8 +5,6 @@ date: 2016-07-08 12:00:00
 excerpt: "This is the pattern I use when writing classes with Collections in Entity Framework 6 (EF). If your EF entities need to be proper domain objects with proper encapsulation, rather than just lightweight data objects, you need to arrange a bit of special magic to make that work."
 categories: [how-to, programming, entity-framework-6]
 comments: false
-image:
-  feature: code.png
 ---
 
 This is the pattern I use when writing classes with Collections in Entity Framework 6 (EF). Specifically, when these EF entities need to be proper domain objects with proper encapsulation, rather than just lightweight data objects. 

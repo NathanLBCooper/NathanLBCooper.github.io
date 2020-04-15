@@ -5,8 +5,6 @@ date: 2019-12-20 12:01:00
 excerpt: "It's pretty much universal knowledge that lines of code is a bad measure of productivity. But what about number of features?"
 categories: [product-development]
 comments: false
-image:
-  feature: productdevelopment.jpg
 ---
 
 It's pretty much universal knowledge that lines of code is a bad measurement of productivity or value. Large code-bases aren't necessarily more functional, they might simply be more verbose. All other things being equal, large code-bases are typically harder to understand than small ones. They cost more to maintain and it costs more to add functionality to them. Code is a cost. So part of good software engineering is about providing the most functionality with the least fluff possible.

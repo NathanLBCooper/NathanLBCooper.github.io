@@ -5,8 +5,6 @@ date: 2017-09-21 12:00:00
 excerpt: "If your site is going to embedded in another one using an iframe, here's how to make that responsive and easy"
 categories: [front-end, programming]
 comments: false
-image:
-  feature: frontend.png
 ---
 
 Iframes are not usually the posterboy of a quality web experience. But they are useful, and part of my dayjob used to be making a site that could be iframed into other organisation's websites.

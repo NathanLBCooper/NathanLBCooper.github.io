@@ -5,8 +5,6 @@ date: 2016-07-08 12:00:00
 excerpt: "Pass your domain errors to your caller without boilerplate"
 categories: [how-to, programming, asp.net]
 comments: false
-image:
-  feature: code.png
 ---
 
 Let's say I'm writing a web app to add People to a GuestList. The GuestList is a sensible place to keep the logic to decide whether a person is added and the reason why. For example:

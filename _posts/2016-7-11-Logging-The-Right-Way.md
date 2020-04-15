@@ -5,8 +5,6 @@ date: 2016-07-11 12:00:00
 excerpt: "Let's make our logging structured"
 categories: [programming]
 comments: false
-image:
-  feature: code.png
 ---
 
 > NOTE: I think these days it's better to just take something like Serilog/ELK/Prometheus and just do it how they say. But here is how I used to do event logging:
