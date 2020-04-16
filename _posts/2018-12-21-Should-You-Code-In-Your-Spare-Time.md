@@ -3,7 +3,7 @@ layout: post
 title: "Should you code in your spare time?"
 date: 2018-12-21 12:00:00
 excerpt: "Is the only way to become a 'great programmer' to spend a lot of your spare time coding? Is that even the best way?"
-categories: [opinion]
+categories: []
 comments: false
 ---
 

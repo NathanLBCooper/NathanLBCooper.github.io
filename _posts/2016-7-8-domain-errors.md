@@ -3,7 +3,7 @@ layout: post
 title: "How to pass domain errors into your model state"
 date: 2016-07-08 12:00:00
 excerpt: "Pass your domain errors to your caller without boilerplate"
-categories: [how-to, programming, asp.net]
+categories: [asp.net]
 comments: false
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "How to build your own event logging"
 date: 2016-07-11 12:00:00
 excerpt: "Let's make our logging structured"
-categories: [programming]
+categories: []
 comments: false
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Code I wrote: Creating reproducible C++ build environments with Docker"
 date: 2019-04-04 12:00:00
 excerpt: "I quick overview of a really interesting series of Microsoft blog posts, and the application I built following them"
-categories: [my-projects, programming, C++, docker]
+categories: [portfolio, C++, docker]
 comments: false
 ---
 
