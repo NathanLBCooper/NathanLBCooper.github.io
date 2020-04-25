@@ -161,4 +161,4 @@ Now the the table still has the correct data for the present time, but we also h
     1  | 'Milk'  | 'Fresh' | [2020-04-26, 2020-04-27)
     3  | 'Beer' | 'Fresh'  | [2020-04-26, 2020-04-27)
 
-We'll talk about how to start querying that <a href= "{{ site.url }}/">next time</a>.
+We'll talk about how to start querying that <a href= "{{ site.url }}/articles/2020-04/temporal-tables-part-3">next time</a>.
