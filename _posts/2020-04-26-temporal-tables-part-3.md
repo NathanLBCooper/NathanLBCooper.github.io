@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Temporal Tables Part 3: Querying"
-date: 2020-04-26 13:01:00
+date: 2020-04-26 12:01:00
 excerpt: "How query the history saved in your temporal tables"
 categories: [storage]
 comments: false
